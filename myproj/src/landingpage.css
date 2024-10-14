@@ -1,0 +1,188 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.lp {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+.nav h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+    color: #e63946;
+}
+
+.hs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-image: url(images/hotel2.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hs h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hs h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.hs h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hs button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #e63946;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hs button:hover {
+    background-color: #ff3f57;
+}
+
+
+.au {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.au h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.au p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.ct {
+    background-image: url('https://img.freepik.com/premium-photo/top-view-dark-modern-workplace-with-smartphone-tablet-office-supplies-copy-space_67155-5909.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 80px 30px;
+}
+
+.ct h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.ct p {
+    font-size: 20px;
+}
+
+.ab {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 0;
+    background-color: #f5f5f5;
+}
+
+.im {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.im img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.points {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.points li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hs h1 {
+        font-size: 36px;
+    }
+
+    .hs h2 {
+        font-size: 20px;
+    }
+
+    .ab {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .im img {
+        width: 200px;
+        height: 200px;
+    }
+}

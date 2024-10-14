@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  background-image: url(images/bg1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+li {
+  float: right;
+}
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}
+a {
+  padding: 60px;
+}
+nav {
+  background-color: lightgoldenrodyellow;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  border: 5px solid rgb(0, 4, 6);
+  background-color: lightgoldenrodyellow;
+  width: 675px;
+}
+b {
+  border: 5px solid black;
+  background-color: lightgrey;
+}
